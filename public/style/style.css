@@ -1,0 +1,26 @@
+/* Style de base pour la carte */
+.card {
+  transition: all 0.3s ease;
+  /* Transition douce pour les effets */
+}
+
+/* Effet de survol pour la carte */
+.card:hover {
+  background-color: #a5b5c6;
+  /* Couleur de fond au survol */
+  color: #ac2727;
+  /* Couleur du texte au survol */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Ombre portée au survol */
+}
+
+/* Effet de survol pour le bouton */
+.card .btn-danger:hover {
+  background-color: #ce0112;
+  /* Couleur de fond du bouton au survol */
+  color: #fff;
+  /* Couleur du texte du bouton au survol */
+  opacity: 0.8;
+  /* Opacité du bouton au survol */
+}
+
