@@ -4,11 +4,11 @@ namespace App\Model;
 
 class Task
 {
-    public $id;
-    public $title;
-    public $description;
-    public $status;
-    public $order;
+    private $id;
+    private $title;
+    private $description;
+    private $status;
+    private $order;
 
     public function __construct($data = [])
     {
